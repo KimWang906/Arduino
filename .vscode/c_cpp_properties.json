@@ -1,0 +1,21 @@
+{
+"configurations": [
+    {
+        "name":"Win32",
+        "includePath":[
+        "C:\\Program Files (x86)\\Arduino\\tools\\**",
+        "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\**",
+        "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\avr\\include",
+        "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\lib\\gCc\\avr\\7.3.0\\include\\**" //추가-자신의PC경로확인필요
+        ],
+        "forcedInclude":[
+            "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
+        ],
+        "intelliSenseMode": "msvc-x64",
+        "defines": [
+            "USBCON"//serial클래스쓸경우Include에러방지
+            ]
+    }
+],
+    "version":4
+}
